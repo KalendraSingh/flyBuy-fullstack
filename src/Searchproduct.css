@@ -1,0 +1,9 @@
+.card{
+    max-height:450px;
+    max-width: 300px;
+    padding: 5px;
+}
+.cardimage{
+    height: 12rem;
+    width: 12rem;
+}

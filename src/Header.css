@@ -1,0 +1,27 @@
+.headerContaner{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+ 
+    background-attachment: fixed;
+}
+
+#collapsibleNavbar ul li Link{
+    text-decoration: none;
+    color: rgb(34, 15, 139);
+    position: relative;
+    color: red;
+}
+
+#collapsibleNavbar ul li Link::after{
+    content: "";
+    height: 2px;
+    left: 0;
+    width:0%;
+    bottom: -5px;
+    background-color: rgb(3, 47, 87);
+    position: absolute;
+    transition: 0.5s ease-out;
+}
+
+#collapsibleNavbar ul li Link:hover::after{
+    width: 100%;
+}

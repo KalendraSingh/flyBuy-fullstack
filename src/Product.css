@@ -1,0 +1,26 @@
+.categoryStyle{
+    background-image: linear-gradient(to right, #0250c5 0%, #d43f8d 100%);
+}
+
+.categoryStyle ul li{
+    text-decoration: none;
+    color: aliceblue;
+    position: relative;
+}
+.categoryStyle ul li::after{
+    content: "";
+    height: 2px;
+    left: 0;
+    width:0%;
+    bottom: -5px;
+    background-color: aliceblue;
+    position: absolute;
+    transition: 0.5s ease-out;
+}
+.categoryStyle ul li:hover::after{
+    width: 100%;
+}
+.cardimage{
+    height: 12rem;
+    width: 12rem;
+}
